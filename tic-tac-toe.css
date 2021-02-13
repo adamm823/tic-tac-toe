@@ -1,0 +1,90 @@
+* {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+body {
+    width: 600px;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    font-family: cursive;
+    border: 1px solid black;
+    border-width: 5px;
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+    width: 25px;
+    padding: 1px;
+    height: 25px;
+    font-size: 20px;
+}
+
+div.slots {
+    border: none;
+}
+
+.slots {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 50px auto;
+}
+
+.x::after {
+    content: "X";
+}
+
+.o::after {
+    content: "O";
+}
+
+button {
+    width: 150px;
+    height: 25px;
+    background: lightgrey;
+    color: black;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+#slot1 {
+    background: lightgrey;
+}
+
+#slot2 {
+    background: lightgrey;
+}
+
+#slot3 {
+    background: lightgrey;
+}
+
+#slot4 {
+    background: lightgrey;
+}
+
+#slot5 {
+    background: lightgrey;
+}
+
+#slot6 {
+    background: lightgrey;
+}
+
+#slot7 {
+    background: lightgrey;
+}
+
+#slot8 {
+    background: lightgrey;
+}
+
+#slot9 {
+    background: lightgrey;
+}
